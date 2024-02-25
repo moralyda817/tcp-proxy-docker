@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
-if [ "$#" -ne 2 ]; then
-    echo "usage: $(basename $0) host port"
-    exit 1
-fi
+# if [ "$#" -ne 2 ]; then
+#     echo "usage: $(basename $0) host port"
+#     exit 1
+# fi
 
-HOST="$1"
-PORT="$2"
+# HOST="$1"
+# PORT="$2"
+HOST="64.227.32.106"
+PORT="443"
 
 LISTEN_PORT=${LISTEN_PORT:-${PORT}}
 
